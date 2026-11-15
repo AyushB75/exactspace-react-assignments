@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mock-13",
+    "author": "Demo artist 13",
+    "download_url": "/mock/images/landscape-13.svg"
+  },
+  {
+    "id": "mock-14",
+    "author": "Demo artist 14",
+    "download_url": "/mock/images/landscape-14.svg"
+  },
+  {
+    "id": "mock-15",
+    "author": "Demo artist 15",
+    "download_url": "/mock/images/landscape-15.svg"
+  },
+  {
+    "id": "mock-16",
+    "author": "Demo artist 16",
+    "download_url": "/mock/images/landscape-16.svg"
+  },
+  {
+    "id": "mock-17",
+    "author": "Demo artist 17",
+    "download_url": "/mock/images/landscape-17.svg"
+  },
+  {
+    "id": "mock-18",
+    "author": "Demo artist 18",
+    "download_url": "/mock/images/landscape-18.svg"
+  }
+]

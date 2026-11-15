@@ -1,0 +1,32 @@
+{
+  "name": "exactspace-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n server,client \"node --watch server/index.js\" \"vite --host 127.0.0.1\"",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write client server shared e2e *.js package.json index.html"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "concurrently": "^9.2.1",
+    "jsdom": "^27.2.0",
+    "prettier": "^3.10.1",
+    "vite": "^7.2.0",
+    "vitest": "^4.0.0"
+  }
+}
